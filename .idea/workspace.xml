@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e0f539-674e-4dc7-b7e6-1e0574d015b9" name="Changes" comment="" />
+    <list default="true" id="09e0f539-674e-4dc7-b7e6-1e0574d015b9" name="Changes" comment="Added file download">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuel_consumption_analysis.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,29 +23,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2fSJ3QZx4kD7bUSyuEDFhG6R4hv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.fuel_consumption_analysis.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.fuel_consumption_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs_and_stats.executor&quot;: &quot;Run&quot;,
+    &quot;Python.info_scrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_data_sold_cars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature_data_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\Programming\Python\MSiD_Project" />
+      <recent name="C:\Study\Programming\Python\MSiD_Project\datasets" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,14 +72,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713788345299</updated>
-      <workItem from="1713788348053" duration="8548000" />
+      <workItem from="1713788348053" duration="9615000" />
+      <workItem from="1713850406148" duration="7897000" />
+      <workItem from="1714302764417" duration="226000" />
+      <workItem from="1714835967035" duration="21771000" />
+      <workItem from="1715023648251" duration="2805000" />
+      <workItem from="1715059888712" duration="10000" />
+      <workItem from="1715066223720" duration="7128000" />
+      <workItem from="1715097962557" duration="619000" />
+      <workItem from="1715504577706" duration="36000" />
+      <workItem from="1715517695442" duration="2286000" />
+      <workItem from="1715667299399" duration="631000" />
     </task>
+    <task id="LOCAL-00001" summary="Added file download">
+      <option name="closed" value="true" />
+      <created>1713811084498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713811084498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added file download" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added file download" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MSiD_Project$fuel_consumption_analysis.coverage" NAME="fuel_consumption_analysis Coverage Results" MODIFIED="1713809396904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$info_scrapper.coverage" NAME="info_scrapper Coverage Results" MODIFIED="1714906510273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$read_data_sold_cars.coverage" NAME="read_data_sold_cars Coverage Results" MODIFIED="1714853707714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$read_csv.coverage" NAME="read_csv Coverage Results" MODIFIED="1713874580528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$temperature_data_analysis.coverage" NAME="temperature_data_analysis Coverage Results" MODIFIED="1714853693376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$graphs_and_stats.coverage" NAME="graphs_and_stats Coverage Results" MODIFIED="1715075013502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$fuel_consumption_analysis.coverage" NAME="fuel_consumption_analysis Coverage Results" MODIFIED="1714853717529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
