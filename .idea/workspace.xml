@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e0f539-674e-4dc7-b7e6-1e0574d015b9" name="Changes" comment="Added file download">
+    <list default="true" id="09e0f539-674e-4dc7-b7e6-1e0574d015b9" name="Changes" comment="Finished models and created comparison plots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuel_consumption_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Demographics_of_Canada.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Demographics_of_Canada.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs_and_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs_and_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/info_scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project-notebook.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +37,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python._optional.executor&quot;: &quot;Debug&quot;,
     &quot;Python.fuel_consumption_analysis.executor&quot;: &quot;Run&quot;,
     &quot;Python.graphs_and_stats.executor&quot;: &quot;Run&quot;,
-    &quot;Python.info_scrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.info_scrapper.executor&quot;: &quot;Debug&quot;,
     &quot;Python.read_csv.executor&quot;: &quot;Run&quot;,
     &quot;Python.read_data_sold_cars.executor&quot;: &quot;Run&quot;,
     &quot;Python.temperature_data_analysis.executor&quot;: &quot;Run&quot;,
@@ -82,7 +86,8 @@
       <workItem from="1715097962557" duration="619000" />
       <workItem from="1715504577706" duration="36000" />
       <workItem from="1715517695442" duration="2286000" />
-      <workItem from="1715667299399" duration="631000" />
+      <workItem from="1715667299399" duration="15999000" />
+      <workItem from="1716050845019" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="Added file download">
       <option name="closed" value="true" />
@@ -92,7 +97,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713811084498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished data scrapper and added plots">
+      <option name="closed" value="true" />
+      <created>1715781437402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715781437402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Moved main coding to jupiter notebook">
+      <option name="closed" value="true" />
+      <created>1715781480899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715781480899</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished plots, started data preprocessing and creating models">
+      <option name="closed" value="true" />
+      <created>1716050947174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716050947174</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished models and created comparison plots">
+      <option name="closed" value="true" />
+      <created>1716051190585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716051190585</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,14 +137,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added file download" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added file download" />
+    <MESSAGE value="Finished data scrapper and added plots" />
+    <MESSAGE value="Moved main coding to jupiter notebook" />
+    <MESSAGE value="Finished plots, started data preprocessing and creating models" />
+    <MESSAGE value="Finished models and created comparison plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished models and created comparison plots" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/info_scrapper.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MSiD_Project$info_scrapper.coverage" NAME="info_scrapper Coverage Results" MODIFIED="1714906510273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$info_scrapper.coverage" NAME="info_scrapper Coverage Results" MODIFIED="1715780833135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSiD_Project$read_data_sold_cars.coverage" NAME="read_data_sold_cars Coverage Results" MODIFIED="1714853707714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSiD_Project$read_csv.coverage" NAME="read_csv Coverage Results" MODIFIED="1713874580528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSiD_Project$temperature_data_analysis.coverage" NAME="temperature_data_analysis Coverage Results" MODIFIED="1714853693376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSiD_Project$graphs_and_stats.coverage" NAME="graphs_and_stats Coverage Results" MODIFIED="1715075013502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$graphs_and_stats.coverage" NAME="graphs_and_stats Coverage Results" MODIFIED="1715803185511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSiD_Project$fuel_consumption_analysis.coverage" NAME="fuel_consumption_analysis Coverage Results" MODIFIED="1714853717529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSiD_Project$_optional.coverage" NAME="_optional Coverage Results" MODIFIED="1715776629667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Lib/site-packages/pandas/compat" />
   </component>
 </project>
